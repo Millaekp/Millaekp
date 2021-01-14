@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio Milla Kilpeläinen</title>
+</head>
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/c9xn22" title="portofliokuva1 - Copy"><img src="https://live.staticflickr.com/65535/50652571547_4688d83828_w.jpg" width="320" height="400" alt="portofliokuva1 - Copy"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+            <h2>Milla Kilpeläinen</h2>
+            <p>Helsinki,Finland.</p>
+            <a href="https://www.instagram.com/millaekp/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/milla-kilpel%C3%A4inen-44b712200/"><i class="fab fa-linkedin"></i></a>
+           
+        </div>
+        <div class="section-2">
+            <h2>Personal website</h2>
+            <p>Task was to complete a website using html, css and javascript while taking advantage of google's firebase, APIs and bootstrap.</p>
+            <p>My site used firebase as a guestbook and an API to determine are the programs free.</p>
+            
+            
+            <h2>Photos of the product</h2>
+         
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/r6Du9b" title="yleisilme"><img src="https://live.staticflickr.com/65535/50834867997_d7d6d29bd2_n.jpg" width="320" height="156" alt="yleisilme"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/84TJ8i" title="projektietusivu"><img src="https://live.staticflickr.com/65535/50834049268_b43e1378a1_n.jpg" width="320" height="153" alt="projektietusivu"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/rPFUCe" title="ohjelmat"><img src="https://live.staticflickr.com/65535/50834868077_d01c502bd7_n.jpg" width="320" height="158" alt="ohjelmat"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/02Yh47" title="gllaeria"><img src="https://live.staticflickr.com/65535/50834056673_4c959f8b95_n.jpg" width="320" height="147" alt="gllaeria"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/5325q2" title="vieraskirja"><img src="https://live.staticflickr.com/65535/50834781796_6605c634c8_n.jpg" width="320" height="151" alt="vieraskirja"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+            <a data-flickr-embed="true" href="https://www.flickr.com/gp/191184486@N05/m9dR63" title="kysely"><img src="https://live.staticflickr.com/65535/50834868112_b8e6f4bde9_n.jpg" width="320" height="155" alt="kysely"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+            
+            <h2>Projects</h2>
+            <a href="https://millaekp.github.io/Millaekp/csit.html">CSIT</a>
+            <a href="https://millaekp.github.io/Millaekp/website.html">CSIT</a>
+            <a href="https://millaekp.github.io/Millaekp/community.html">Community APP</a>
+            <a href="https://millaekp.github.io/Millaekp/poissaolo.html">POISSAolo APP</a>
+            <a href="https://millaekp.github.io/Millaekp/personal.html">Personal artworks</a>
+            <br>
+            <a href="https://millaekp.github.io/Millaekp/index.html"> Back </a>
+            <h2>Contact</h2>
+            <p>milla.e.kilpelainen@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html> 
