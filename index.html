@@ -1,60 +1,275 @@
+<!-- 
+  Hello 😊.
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <title>Portfolio Milla Kilpeläinen</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+      Portfolio of Milla Kilpeläinen
+  </title>
+  
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Milla Kilpeläinen, UX design html css Figma Axure Invision Scrum " />
+  <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-
-
-            <a href="https://www.flickr.com/gp/191184486@N05/c9xn22" title="portofliokuva1 - Copy"><img src="https://live.staticflickr.com/65535/50652571547_4688d83828_w.jpg" width="320" height="400" alt="portofliokuva1 - Copy"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
-            <h2>Milla Kilpeläinen</h2>
-            <p>Helsinki,Finland.</p>
-            <a href="https://www.instagram.com/millaekp/"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/milla-kilpel%C3%A4inen-44b712200/"><i class="fab fa-linkedin"></i></a>
-           
-        </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p> 22 year old woman from Oulu Finland <br><br>Moved to Helsinki to study at Haaga-Helia University of Applied Sciences <br> on 2nd year of business information technology studies</p>
-            <br> Will specialize on digital services and graduate in December 2023. 
-            <h2>Experience</h2>
-            <ul>
-                <li>Multiple group projects in creating prototypes and interfaces.</li>
-                <li>Over 2 years of experience on customer service</li>
-                <li>Years of personal interest in arts</li>
-            </ul>
-            
-
-            <h2>My strongest points</h2>
-            <ul>
-                <li>Intermediate English, mothertongue Finnish.</li>
-                <li>International school background and 3 years abroad ( in Taiwan) ensures well-rounded social skills. </li>
-                <li>High interest in graphic design as a job and hobby</li>
-                <li>Toolkit includes: <br> Axure, Invision, Adobe Photoshop, Procreate, Premiere Elements, Blender (1.8), Adobe Dreamweaver.</li>
-            </ul>
-            
-       <h2>Projects</h2>
-            <a href="https://millaekp.github.io/Millaekp/csit.html">CSIT</a>
-            <a href="https://millaekp.github.io/Millaekp/website.html">Personal website</a>
-            <a href="https://millaekp.github.io/Millaekp/community.html">Community APP</a>
-            <a href="https://millaekp.github.io/Millaekp/poissaolo.html">POISSAolo APP</a>
-            
-            <a href="https://millaekp.github.io/Millaekp/personal.html">Personal artworks</a>
-            <br>
-         
-            <h2>Contact</h2>
-            <p>milla.e.kilpelainen@gmail.com</p>
-        </div>
+    
+  <!-- ***** Header ***** -->
+  
+  <header class="header" role="banner" id="top">
+      <div class="row">
+          <nav class="nav" role="navigation">
+              <ul class="nav__items">
+                  <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                  <li class="nav__item"><a href="#clients" class="nav__link">Toolkit</a></li>
+                  <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+        </li>
+          <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+        </ul>
+      </nav>
     </div>
-</body>
-</html>
+    <div class="header__text-box row">
+        <div class="header__text">
+            <h1 class="heading-primary">
+                <!-- Replace the following name with your name -->
+          <span>Milla Kilpeläinen</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>An Information Technologies student of Haga-Helia, based in Helsinki, Finland.</p>
+        Intermediate English, mothertongue Finnish. <br>
+        International school background and 3 years abroad (in Taiwan) ensures well-rounded social skills.<br>
+        Multiple group projects in creating prototypes and interfaces. <br>
+        Over 2 years of experience on customer service (still going) <br>
+        <br>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+    </div>
+</div>
+</header>
 
+
+<main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>CSIT</h3>
+              <p>
+                CSIT requested to rework on their existing website to look fresher and add the ability to change 
+                personal information. A dashboard was wished for too.<br>
+
+                Colors, fonts and images used are the company's own. This was a 3 person project.<br>
+
+              </p>
+
+              <p>My input for the project was the following:</p>
+              <ul class="work__list">
+                <li>Rough sketches</li>
+                <li>Decided on the layout</li>
+                <li>Created the prototype visually</li>
+                <li>Coded the html prototype</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://7je4q7.axshare.com/" target="_blank" class="link__text">
+                  Interactive prototype <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Community APP</h3>
+              <p>
+                The task was to create an APP to improve people's lives in one way or another.<br>
+
+                COMMUNITY is a resource sharing APP for neighborhoods, people can sell, trade and offer items and services.<br>
+                
+                Our group was chosen to join a competition with this, we decided not to.<br>
+                A 4 person project where work was devided equally as we were all highly motivated <br>
+              </p>
+              <p>My input for this project:</p>
+              <ul class="work__list">
+                <li>Topic brainstorming</li>
+                <li>Layout planning</li>
+                <li>Prototype creation</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://32u34h.axshare.com/" class="link__text">
+                  Interactive prototype <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Personal Artworks</h3>
+              <p>
+                Examples of my personal artworks to give a sense of my art skills.<br>
+                I take commissions through social media when I have the time. 
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- ***** Clients ***** -->
+
+<section class="client" id="clients">
+    <div class="row">
+      <h2>My toolkit</h2>
+      <div class="client__logos">
+        <!-- Add logos of the clients or companies you'have worked with. -->
+        <img src="./images/ronjones.png" class="client__logo" alt="Figma" />
+        <img src="./images/goldengrid.png" class="client__logo" alt="Invision" />
+        <img src="./images/bullseye.png" class="client__logo" alt="Axure" />
+        <img src="./images/mighty-furnitures.png" class="client__logo" alt="Procreate" />
+        <img src="./images/fastlane.png" class="client__logo" alt="Adobe Premiere Elements" />
+      </div>
+    </div>
+  </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+            22 year old woman from Oulu Finland <br>
+            <br>Moved to Helsinki to study at Haaga-Helia University of Applied Sciences 
+            <br>I'm on my 2nd year of business information technology studies
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I'm actively seeking for a summer job opportunity currently. I'm more than willing to schedule an online interview or 
+          whatever the method of going through the application progress is! I can be reached through my phone (see on my CV) and email.
+          Thank you very much for taking the time to look at my portfolio! 
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:milla.e.kilpelainen@gmail.com" class="btn">milla.e.kilpelainen@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+       
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/millaekp/" title="Link to Instagram Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/milla-kilpel%C3%A4inen-44b712200/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
